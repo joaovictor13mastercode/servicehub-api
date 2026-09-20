@@ -1,0 +1,5 @@
+com\servicehub\api\repository\ServicoRepository.class
+com\servicehub\api\ServicehubApiApplication.class
+com\servicehub\api\controller\ServicoController.class
+com\servicehub\api\entity\Servico.class
+com\servicehub\api\service\ServicoService.class
