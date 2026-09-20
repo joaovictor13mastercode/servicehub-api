@@ -9,7 +9,6 @@ API RESTful desenvolvida com Spring Boot 3 para gestão e cadastro de serviços,
 - **Spring Data JPA / Hibernate**
 - **PostgreSQL 16**
 - **Maven**
-
 ## ⚙️ Como Executar o Projeto Localmente
 
 ### Pré-requisitos
@@ -19,14 +18,15 @@ API RESTful desenvolvida com Spring Boot 3 para gestão e cadastro de serviços,
 
 ### Passos
 1. Clone o repositório:
-bash
+```bash
 git clone https://github.com/joaovictor13mastercode/servicehub-api.git
-2. Configure as credenciais da base de dados em `src/main/resources/application.properties`.
+```
+2. Configure as credenciais da base de dados em src/main/resources/application.properties.
 3. Execute a aplicação via Maven ou VS Code:
-bash
+```bash
 ./mvnw spring-boot:run
-4. A API estará acessível em `http://localhost:8080`.
-
+```
+4. A API estará acessível em http://localhost:8080
 ## 📌 Endpoints da API
 
 | Método | Endpoint | Descrição |
